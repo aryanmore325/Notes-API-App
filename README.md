@@ -3,6 +3,8 @@
 ## Overview
 The Notes API is a simple CRUD (Create, Read, Update, Delete) application that allows users to manage their notes. This API is built using Node.js, Express.js, and MongoDB.
 
+LIVE URL - https://stunning-quokka-be66dc.netlify.app
+
 ## Features
 - Create a new note
 - Retrieve all notes
