@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .dark {
+    color-scheme: dark;
+  }
+}
+
+.prose {
+  max-width: none;
+}
+
+.prose pre {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.dark .prose pre {
+  background-color: #2d2d2d;
+}
